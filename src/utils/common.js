@@ -10,8 +10,5 @@ export const normalize = (array, uniqKey = 'id') => {
     allIds.push(item[uniqKey]);
   });
 
-  console.log(byId);
-  console.log(allIds);
-
   return { byId, allIds };
 };

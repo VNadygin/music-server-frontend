@@ -57,10 +57,8 @@ function reducer(state = initialState, action) {
 
     case actionTypes.SELECT_PREV_SONG: {
       const currentIndex = state.data.allIds.indexOf(state.selectedSongId);
-      console.log('currentIndex', currentIndex);
       const songsAmount = state.data.allIds.length;
       const nextIndex = currentIndex === 0 ? songsAmount - 1 : currentIndex - 1;
-      console.log('nextIndex', nextIndex);
       const nextSongId = state.data.allIds[nextIndex];
 
       return {
