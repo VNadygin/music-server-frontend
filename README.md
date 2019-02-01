@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minimal music app implementation with React&Redux.
+
+### Env
+
+`REACT_APP_BACKEND_URL` - backend url
+
 
 ## Available Scripts
 
